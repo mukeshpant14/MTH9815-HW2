@@ -172,6 +172,7 @@ vector<IRSwap> IRSwapProductService::GetSwaps(SwapLegType _swapLegType)
 
 /*--------------------- IR SWAP Service end --------------------- */
 
+/*--------------------- Future Service start --------------------- */
 /**
 * Future Product Service to own reference data over a set of futures.
 * Key is the productId string, value is a Bond.
@@ -186,3 +187,4 @@ public:
 protected:
 	map<string, Future> futureMap; // cache product
 };
+/*--------------------- Future Service end --------------------- */
